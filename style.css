@@ -1,0 +1,11 @@
+/* Web Study Note 웹 사이트 스타일 입히기*/
+/* CSS 공부하면서 배운 것들을 적용해보자.*/
+
+.title {
+    background-color: skyblue;
+} /* 최상단 제목 부분의 배경색을 'skyblue(하늘색)'으로 설정함. */
+
+.Category {
+    font-weight: bold;
+}/* Category 글씨체를 굵게 표시한다.*/
+
