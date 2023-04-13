@@ -1,0 +1,45 @@
+<!-- 
+    기본 구조는 메인 홈(index)의 내용을 받아와서 진행한다.
+    수정할 부분은 content part (menu, contentarea)만 수정한다.
+    => CSS 페이지
+--> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <!-- 홈페이지 제목-->
+        <div class="title">
+            <h3><a href="index.html">Web Page</a></h3>
+        </div>
+        <br/>
+
+        <!-- 메뉴 및 본문 part-->
+        <div class="body">
+            <!-- 메뉴 part-->
+            <div class="menu">
+                <ul>
+                    <li><a href="#b1">CSS의 정의</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>CSS란 무엇인가?</h4>
+                <hr/>
+                <div class="contentarea">
+                    <p id="b1">
+                        1. CSS의 정의 <br/>
+                        CSS란 Cascading Style Sheet의 약어로
+                        계단식으로 스타일을 정의하는 언어이다.
+                    </p>
+                </div>
+            </div>
+            &nbsp;
+            <!-- body와 buildlog part 분리를 위한 공백 표시-->
+        </div>
+    </body>
+</html>
