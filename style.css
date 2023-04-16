@@ -6,7 +6,7 @@
     height: 75px;
 } /* 최상단 제목 부분의 배경색을 'skyblue(하늘색)'으로 설정함. */
 
-.body .menu {
+.menu {
     font-weight: bold;
     float: left;
     background-color:gainsboro;
@@ -14,7 +14,7 @@
     height: 250px;
 }
 
-.body .content {
+.content {
     font-weight: bold;
     float: left;
     background-color: wheat;
