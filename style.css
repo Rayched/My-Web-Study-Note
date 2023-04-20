@@ -1,27 +1,42 @@
 /* Web Study Note 웹 사이트 스타일 입히기*/
 /* CSS 공부하면서 배운 것들을 적용해보자.*/
 
-.title {
-    background-color: skyblue;
-    height: 75px;
-} /* 최상단 제목 부분의 배경색을 'skyblue(하늘색)'으로 설정함. */
+/* CSS Style 복습용 */
 
-.menu {
+header {
+    height: 70px;
+    border-style: none none solid none;
     font-weight: bold;
-    float: left;
-    background-color:gainsboro;
-    width: 25%;
-    height: 250px;
 }
 
-.content {
+main {
     font-weight: bold;
-    float: left;
-    background-color: wheat;
-    width: 75%;
-    height: 250px;
+    height: 300px;
+    border-style: none none solid none;
 }
 
-.buildlog {
+nav {
+    float: left;
+    border-style: none solid none none;
+    width: 20%;
+    height: 300px;
+}
+
+.contentarea {
+    float: left;
+    width: 78%;
+    text-align: center;
+}
+
+section {
+    height: 30px;
+    border-style: none none solid none;
+}
+
+footer {
+    background-color: gray;
+    border-style: solid none;
+    border-color: black;
     font-weight: bold;
+    color: white;
 }

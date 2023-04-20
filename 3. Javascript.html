@@ -1,49 +1,57 @@
-<!-- 
-    기본 구조는 메인 홈(index)의 내용을 받아와서 진행한다.
-    수정할 부분은 content part (menu, contentarea)만 수정한다.
-    => Javascript 페이지
--->
+<!-- Javascript Page-->
 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Javascript</title>
-        <link href="style.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet">
     </head>
-
     <body>
-        <!-- 홈페이지 제목-->
-        <div class="title">
-            <h3><a href="index.html">Web Study Note</a></h3>
-        </div>
-        <br/>
-
-        <!-- 메뉴 및 본문 part-->
-            <!-- 메뉴 part-->
-            <div class="menu">
+        <!-- 웹 상단 제목 -->
+        <header>
+            <h4>웹 공부 노트 Web Study Note, W.S.N</h4>
+            <p>
+                version 1.4 (2023.04.20)
+            </p>
+        </header>
+        <main>
+            <nav>
+                <!-- Main Menu-->
+                <p>Main</p>
                 <ol>
                     <li><a href="1. HTML.html">HTML</a></li>
                     <li><a href="2. CSS.html">CSS</a></li>
                     <li><a href="3. Javascript.html">Javascript ◀</a></li>
                 </ol>
                 <hr/>
+                <p>Sub Menu</p>
                 <ul>
-                    <li><a href="#d1">Javascript의 정의</a></li>
+                    <li>JS 정의</li>
+                    <li>변수</li>
+                    <li>함수</li>
+                    <li>조건문</li>
+                    <li>반복문</li>
                 </ul>
+            </nav>
+            &nbsp;&nbsp;
+            <div class="contentarea">
+                <section>
+                    <h4>Javascript란 무엇인가?</h4>
+                </section>
+                <article>
+                    <p>
+                    </p>
+                </article>
             </div>
-            <div class="content">
-                <h4>Javascript란 무엇인가?</h4>
-                <hr/>
-                <div class="contentarea">
-                  <p id="d1">
-                    1. Javascript의 정의 <br/>
-                    Javascript란 HTML과 CSS로 작성한 웹 문서에
-                    동적인, interaction을 부여해주는 프로그래밍 언어이다.
-                  </p>
-                </div>
-            </div>
-            &nbsp;
-            <!-- body와 buildlog part 분리를 위한 공백 표시-->
+        </main>
+        <br/>
+        <footer>
+            <p>
+                제작자 명: 일월서생(==Yu Han Byeol) <br/>
+                <a href=""https://github.com/Rayched/My-Web-Study-Note/wiki/%5BSide-Project%5D-%EC%9B%B9-%EA%B3%B5%EB%B6%80%EB%85%B8%ED%8A%B8-%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80""> ▶ My toy Project's Github Wiki Link</a> <br/>
+                (Toy Project 작업 내역 기록)
+            </p>
+        </footer>
     </body>
 </html>
